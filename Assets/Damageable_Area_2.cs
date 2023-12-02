@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageZone : MonoBehaviour
+public class DamageZone_2 : MonoBehaviour
 {
     void OnTriggerStay2D(Collider2D other)
     {
@@ -10,7 +10,7 @@ public class DamageZone : MonoBehaviour
 
         if (controller != null)
         {
-            controller.ChangeHealth(-3);
+            controller.ChangeHealth(-6);
         }
     }
 }
